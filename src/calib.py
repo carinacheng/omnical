@@ -19,7 +19,7 @@ with warnings.catch_warnings():
     try:
         from numpy import nanmedian as nanmedian
     except:
-        print "WARNING: using scipy's nanmedian function with is much slower than numpy.nanmedian. Consider numpy 1.9+."
+        #print "WARNING: using scipy's nanmedian function with is much slower than numpy.nanmedian. Consider numpy 1.9+."
         from scipy.stats import nanmedian
 
 __version__ = '4.0.4'
